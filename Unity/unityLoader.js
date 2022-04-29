@@ -84,6 +84,6 @@ switch (url.searchParams.get("jamName")) {
     break;
 
     default:
-        alert("Invalid jam name: " + url.searchParams.get("jamName"));
+        alert("Invalid jam name " + url.searchParams.get("jamName"));
         window.location.href = 'https://zirk.eu/?tab=gamejam'
 }
